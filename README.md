@@ -1,8 +1,5 @@
 # Flight Search
 
-### Code Test
-http://node.locomote.com/code-task
-
 ### Todo
 - [ ] Flight Search 
   - [x] Add Search form Validation
