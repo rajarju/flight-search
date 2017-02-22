@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Super Awesome Flight Booking</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="/libs/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet"/>
+
+
+</head>
+<body>
+
+<div id="root"></div>
+
+<!--Templates-->
+<script id="template-app" type="js-template">
+  <div id="app" class="App container">
+    <header class="App__Header">
+      <component data-component="Header" data-model="name"></component>
+    </header>
+    <section class="App__Search">
+      <component data-component="Search"></component>
+    </section>
+    <div id="messages"></div>
+    <div class="">
+        <nav class="col-md-2 App__LeftNav">
+          <ul class="nav nav-pills">
+            <li role="presentation" class="App__LeftNav__Tab">
+              <a data-index="0" class="App__LeftNav__Tab__Action" href="#">DB Yesterday</a>
+              <i class="glyphicon glyphicon-refresh"></i>
+            </li>
+            <li role="presentation" class="App__LeftNav__Tab">
+              <a data-index="1" class="App__LeftNav__Tab__Action" href="#">Yesterday</a>
+              <i class="glyphicon glyphicon-refresh"></i>
+            </li>
+            <li role="presentation" class="App__LeftNav__Tab">
+              <a data-index="2" class="App__LeftNav__Tab__Action" href="#">Today</a>
+              <i class="glyphicon glyphicon-refresh"></i>
+            </li>
+            <li role="presentation" class="App__LeftNav__Tab">
+              <a data-index="3" class="App__LeftNav__Tab__Action" href="#">Tomorrow</a>
+              <i class="glyphicon glyphicon-refresh"></i>
+            </li>
+            <li role="presentation" class="App__LeftNav__Tab">
+              <a data-index="4" class="App__LeftNav__Tab__Action" href="#">DA Tomorrow</a>
+              <i class="glyphicon glyphicon-refresh"></i>
+            </li>
+          </ul>
+        </nav>
+        <section class="col-md-10 App__Results">
+        </section>
+    </div>
+  </div>
+</script>
+
+<script id="template-header" type="js-template">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand">{{name}}</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-main">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Links</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</script>
+
+<script id="template-app-search" type="js-template">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <form id="search-form" class="form">
+        <div class="form-group col-sm-6">
+          <label for="from">From</label>
+          <input type="text" value="" class="form-control airport-typeahead" id="from" placeholder="From" required autocomplete="off">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="to">From</label>
+          <input type="text" value="" class="form-control airport-typeahead" id="to" placeholder="To" required autocomplete="off">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="date">Date</label>
+          <div class='input-group date' id='flightDate'>
+            <input type="input" format="YYYY-MM-DD" class="form-control" id="date" name="date" placeholder="Date" required>
+            <span class="input-group-addon">
+              <span class="glyphicon glyphicon-calendar"></span>
+            </span>
+          </div>
+        </div>
+        <div class="actions col-sm-12">
+          <input type="hidden" name="from" id="from_hidden" value="" />
+          <input type="hidden" name="to" id="to_hidden" value="" />
+          <button type="submit" class="btn btn-primary">Search</button>
+          <button class="btn btn-link clear">Clear</button>
+        </div>
+      </form>
+    </div>
+    <div class="panel-footer">
+    <a class="pull-right" id="modify-search">Modify Search</a>
+      <div class="row">
+        <h4 id="search-form-summary" class="text-center"></h4>
+      </div>
+
+    </div>
+  </div>
+</script>
+
+<script id="template-app-results" type="js-template">
+  <div class="Results">
+    <div class="row">
+      <div class="results-list Results__List">
+        <div class="list-group Results__List__container">
+          <div href="#" class="list-group-item Results__List__Progress">
+            <div class="Results__List__Progress--wrapper">
+              <p class="list-group-item-text text-center">Searching for flights.</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
+
+<script id="template-app-results-result" type="js-template">
+  <div href="#" class="list-group-item App__Results__Result">
+      <div class="row App__Results__Result__Summary">
+        <div class="App__Results__Result__Finish col-xs-2 text-center" >
+            <p><i class="glyphicon glyphicon-send"></i></p>
+            <small>{{airline.name}}</small>
+        </div>
+        <div class="App__Results__Result__Start col-xs-2 text-center" >
+          <p class="App__Results__Result__Time">{{startTime}}</p>
+          <small>{{startDate}}</small>
+        </div>
+        <div class="App__Results__Result__Finish col-xs-2 text-center" >
+          <p class="App__Results__Result__Time">{{finishTime}}</p>
+          <small>{{finishDate}}</small>
+        </div>
+        <div class="App__Results__Result__Duration col-xs-3 text-center hidden-xs" >
+          <p>{{durationFormatted}}</p>
+          <small>duration</small>
+        </div>
+        <div class="App__Results__Result__Price col-xs-3 text-center" >
+          <p>AUD {{priceFormatted}}</p>
+          <div><button class="btn btn-primary btn-sm">Book</button></div>
+        </div>
+      </div>
+      <div class="well  well-sm App__Results__Result__Details">
+        <h3>{{start.airportName}} → {{finish.airportName}} </h3>
+        <div class="row">
+          <div class="col-sm-4">
+            <h4><i class="glyphicon glyphicon-send"></i> {{airline.name}}</h4>
+            <p>{{airline.code}}-{{plane.code}}</p>
+            <p>{{plane.shortName}}</p>
+          </div>
+          <div class="col-sm-3 text-right">
+            <h4>{{start.cityCode}}  <strong>{{startTime}}</strong></h4>
+            <p>{{start.airportName}}</p>
+            <p>{{start.cityName}}</p>
+          </div>
+          <div class="col-sm-2 text-center">
+            <h4><i class="glyphicon glyphicon-time"></i></h4>
+            <p>{{durationFormatted}}</p>
+          </div>
+          <div class="col-sm-3 text-left">
+            <h4>{{finish.cityCode}}  <strong>{{finishTime}}</strong></h4>
+            <p>{{finish.airportName}}</p>
+            <p>{{finish.cityName}}</p>
+          </div>
+        </div>
+      </div>
+  </div>
+</script>
+
+<script id="template-app-results-no-result" type="js-template">
+  <div href="#" class="list-group-item">
+    <p class="list-group-item-text">No Flights found. Please try another date</p>
+  </div>
+</script>
+
+<script id="template-app-messages" type="js-template">
+  <div class="alert alert-{{type}} text-center">{{message}}</div>
+</script>
+<!-- End Templates-->
+
+
+<!--Libraries-->
+<script src="/libs/jquery/dist/jquery.min.js"></script>
+<script src="/libs/underscore/underscore-min.js"></script>
+<script src="/libs/moment/min/moment.min.js"></script>
+<script src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/libs/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+<script src="/libs/bootstrap3-typeahead/bootstrap3-typeahead.min.js"></script>
+<!-- End Libraries-->
+
+<!-- Utils -->
+<script src="/scripts/utils/app.js"></script>
+<script src="/scripts/utils/events.js"></script>
+<script src="/scripts/utils/component.js"></script>
+<!-- End Utils -->
+
+<!--App Scripts-->
+<script src="/scripts/services/airline.js"></script>
+<script src="/scripts/services/airport.js"></script>
+<script src="/scripts/services/flight.js"></script>
+<script src="/scripts/components/header.js"></script>
+<script src="/scripts/components/results.js"></script>
+<script src="/scripts/components/result.js"></script>
+<script src="/scripts/components/search.js"></script>
+<script src="/scripts/flight-app.js"></script>
+<script src="/scripts/main.js"></script>
+<!-- End App Scripts-->
+
+</body>
+</html>

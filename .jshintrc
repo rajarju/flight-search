@@ -1,0 +1,12 @@
+{
+  "latedef": false,     // Prohibit variable use before definition.
+  "undef": false,     // Require all non-global variables be declared before they are used.
+  "validthis": true,    // Tolerate strict violations when the code is running in strict mode and you use this in a non-constructor function.
+  "browser": true,     // Standard browser globals e.g. `window`, `document`.  // Enable globals exposed by Dojo Toolkit.
+  "jquery": true,    // Enable globals exposed by jQuery JavaScript library.
+  "globals": {
+    "App": true,
+    "_" : true,
+    "moment" : true
+  }
+}

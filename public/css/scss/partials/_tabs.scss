@@ -1,0 +1,12 @@
+.nav-tabs{
+  &.nav-stacked{
+    border-bottom: none;
+    li.active{
+      & > a,
+      & > a:hover,
+      & > a:focus{
+
+      }
+    }
+  }
+}

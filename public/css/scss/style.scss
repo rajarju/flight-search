@@ -1,0 +1,175 @@
+$icon-font-path: "../../libs/bootstrap-sass/assets/fonts/bootstrap/";
+
+@import "./partials/_variables.scss";
+@import "../../libs/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "./partials/_animations.scss";
+@import "./partials/_tabs.scss";
+
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+a {
+  color: #00B7FF;
+  font-weight: 400;
+}
+#app{
+  max-width: 1000px
+}
+.App{
+  .App__LeftNav{
+    padding: 0 5px 0 0;
+    ul{
+      li{
+
+        a{
+          min-height: 52px;
+        }
+        .glyphicon{
+          display: none;
+        }
+
+        &.searching{
+          .glyphicon{
+            display: block;
+            animation: spin 1000ms infinite linear;
+            position: absolute;
+            right: 7px;
+            top: 30px;
+          }
+        }
+        a{
+          small{
+            display: block;
+            font-size: 10px;
+            line-height: 15px;
+            &.more{
+              color: $brand-warning;
+              &::after{
+                content : '▲';
+              }
+            }
+            &.less{
+              color: $brand-success;
+              &::after{
+                content : '▼';
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .App__Search{
+    #modify-search{
+      position: relative;
+      top: 10px;
+      cursor: pointer;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+  .Results__List {
+    animation-name: 'fadeIn';
+    animation-duration: 200ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+  }
+
+  .Results__List__Progress {
+    min-height: 300px;
+    display: table;
+    width: 100%;
+    .Results__List__Progress--wrapper{
+      display: table-cell;
+      width: 400px;
+      vertical-align: middle;
+      margin: 0 50%;
+      text-align: center;
+      .progress{
+        max-width: 400px;
+        margin: 10px auto;
+      }
+    }
+  }
+
+
+  .App__Results__Result{
+    .App__Results__Result__Summary{
+      display: table;
+      width: 100%;
+      margin: 0 auto;
+      cursor: pointer;
+      position: relative;
+      & > div{
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      &::after{
+        content:'';
+      }
+      &:hover{
+        &::after{
+          content: '▼ more ▼';
+          position: absolute;
+          margin: 0 auto;
+          bottom: 3px;
+          font-size: 10px;
+          /* background: red; */
+          left: 50%;
+          color: $brand-info;
+        }
+      }
+    }
+    .App__Results__Result__Details{
+      margin-top: 10px;
+      transition: all ease 200ms;
+      overflow: hidden;
+      min-height: 0;
+      height: 0;
+      padding: 0 9px;
+      margin: 0;
+      border: none;
+    }
+    &.expanded {
+      .App__Results__Result__Details{
+        min-height: 170px;
+        padding: 9px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #e3e3e3;
+      }
+      .App__Results__Result__Summary{
+        &:hover{
+          &::after {
+            content: '▲ less ▲';
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .App{
+    .App__LeftNav{
+      ul.nav-pills{
+        margin-right: -6px;
+        li{
+          width: 100%;
+          &.searching{
+            .glyphicon{
+              right: 10px;
+              top: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

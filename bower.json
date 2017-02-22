@@ -1,0 +1,30 @@
+{
+  "name": "flight-search",
+  "description": "Flight Search App",
+  "main": "app.js",
+  "engines": {
+    "node": ">=4.6.1"
+  },
+  "authors": [
+    "Arjun Raj <rajarju@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap3-typeahead": "git://github.com/bassjobsen/Bootstrap-3-Typeahead.git#master",
+    "moment": "^2.17.1",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.45",
+    "bootstrap-sass": "^3.3.7",
+    "underscore": "^1.8.3"
+  }
+}

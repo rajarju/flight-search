@@ -1,0 +1,2323 @@
+[{
+  "key": "TVU3NTEgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "MU",
+    "name": "China Eastern"
+  },
+  "flightNum": 751,
+  "start": {
+    "dateTime": "2017-02-08T12:31:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T16:32:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "380",
+    "shortName": "Airbus A380",
+    "fullName": "Airbus Industrie A380",
+    "manufacturer": "Airbus",
+    "model": "A380"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 3651.48
+}, {
+  "key": "TVUxMDYgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "MU",
+    "name": "China Eastern"
+  },
+  "flightNum": 106,
+  "start": {
+    "dateTime": "2017-02-08T23:59:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-09T04:00:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "74H",
+    "shortName": "Boeing 747-8",
+    "fullName": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "model": "747-8 Intercontinental"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 3908.39
+}, {
+  "key": "U1U3ODkgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SU",
+    "name": "Aeroflot"
+  },
+  "flightNum": 789,
+  "start": {
+    "dateTime": "2017-02-08T12:30:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T16:31:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "T95",
+    "shortName": "TU-95",
+    "fullName": "TU-95V",
+    "manufacturer": "Tupolev",
+    "model": "TU-95V"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 3909.59
+}, {
+  "key": "TVU3MjQgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "MU",
+    "name": "China Eastern"
+  },
+  "flightNum": 724,
+  "start": {
+    "dateTime": "2017-02-08T15:39:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T19:40:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "380",
+    "shortName": "Airbus A380",
+    "fullName": "Airbus Industrie A380",
+    "manufacturer": "Airbus",
+    "model": "A380"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 4098.97
+}, {
+  "key": "TVU4NjQgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "MU",
+    "name": "China Eastern"
+  },
+  "flightNum": 864,
+  "start": {
+    "dateTime": "2017-02-08T14:36:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T18:37:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 4444.96
+}, {
+  "key": "U1U1MjkgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SU",
+    "name": "Aeroflot"
+  },
+  "flightNum": 529,
+  "start": {
+    "dateTime": "2017-02-08T05:13:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T09:14:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "380",
+    "shortName": "Airbus A380",
+    "fullName": "Airbus Industrie A380",
+    "manufacturer": "Airbus",
+    "model": "A380"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 4605.37
+}, {
+  "key": "TVU2OSAxNDg2NDcyNDAwMDAw",
+  "airline": {
+    "code": "MU",
+    "name": "China Eastern"
+  },
+  "flightNum": 69,
+  "start": {
+    "dateTime": "2017-02-08T17:43:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T21:44:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 4638.16
+}, {
+  "key": "TVUyNDggMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "MU",
+    "name": "China Eastern"
+  },
+  "flightNum": 248,
+  "start": {
+    "dateTime": "2017-02-08T18:46:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T22:47:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "380",
+    "shortName": "Airbus A380",
+    "fullName": "Airbus Industrie A380",
+    "manufacturer": "Airbus",
+    "model": "A380"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 4695.02
+}, {
+  "key": "U1U1MzggMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SU",
+    "name": "Aeroflot"
+  },
+  "flightNum": 538,
+  "start": {
+    "dateTime": "2017-02-08T05:12:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T09:13:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 4804.98
+}, {
+  "key": "U1U3MDcgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SU",
+    "name": "Aeroflot"
+  },
+  "flightNum": 707,
+  "start": {
+    "dateTime": "2017-02-08T17:44:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T21:45:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "333",
+    "shortName": "Airbus A330-300",
+    "fullName": "Airbus Industrie A330-300",
+    "manufacturer": "Airbus",
+    "model": "A330-300"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5075.19
+}, {
+  "key": "TVUzNTAgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "MU",
+    "name": "China Eastern"
+  },
+  "flightNum": 350,
+  "start": {
+    "dateTime": "2017-02-08T13:32:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T17:33:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "74H",
+    "shortName": "Boeing 747-8",
+    "fullName": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "model": "747-8 Intercontinental"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5216.79
+}, {
+  "key": "TVUzNDAgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "MU",
+    "name": "China Eastern"
+  },
+  "flightNum": 340,
+  "start": {
+    "dateTime": "2017-02-08T00:00:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T04:01:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "74H",
+    "shortName": "Boeing 747-8",
+    "fullName": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "model": "747-8 Intercontinental"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5335.23
+}, {
+  "key": "U1E0NzMgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SQ",
+    "name": "Singapore Airlines"
+  },
+  "flightNum": 473,
+  "start": {
+    "dateTime": "2017-02-08T02:05:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T06:06:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "333",
+    "shortName": "Airbus A330-300",
+    "fullName": "Airbus Industrie A330-300",
+    "manufacturer": "Airbus",
+    "model": "A330-300"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5372.5
+}, {
+  "key": "U1ExNjIgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SQ",
+    "name": "Singapore Airlines"
+  },
+  "flightNum": 162,
+  "start": {
+    "dateTime": "2017-02-08T02:04:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T06:05:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5379.29
+}, {
+  "key": "S0UxMjggMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "KE",
+    "name": "Korean Air lines"
+  },
+  "flightNum": 128,
+  "start": {
+    "dateTime": "2017-02-08T14:36:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T18:37:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "74H",
+    "shortName": "Boeing 747-8",
+    "fullName": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "model": "747-8 Intercontinental"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5380.23
+}, {
+  "key": "U1U2OTMgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SU",
+    "name": "Aeroflot"
+  },
+  "flightNum": 693,
+  "start": {
+    "dateTime": "2017-02-08T17:45:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T21:46:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "T95",
+    "shortName": "TU-95",
+    "fullName": "TU-95V",
+    "manufacturer": "Tupolev",
+    "model": "TU-95V"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5399.2
+}, {
+  "key": "TVUzMDggMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "MU",
+    "name": "China Eastern"
+  },
+  "flightNum": 308,
+  "start": {
+    "dateTime": "2017-02-08T13:33:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T17:34:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5461.39
+}, {
+  "key": "U1ExMzQgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SQ",
+    "name": "Singapore Airlines"
+  },
+  "flightNum": 134,
+  "start": {
+    "dateTime": "2017-02-08T05:12:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T09:13:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "380",
+    "shortName": "Airbus A380",
+    "fullName": "Airbus Industrie A380",
+    "manufacturer": "Airbus",
+    "model": "A380"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5540.15
+}, {
+  "key": "S0U1MDkgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "KE",
+    "name": "Korean Air lines"
+  },
+  "flightNum": 509,
+  "start": {
+    "dateTime": "2017-02-08T05:12:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T09:13:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "74H",
+    "shortName": "Boeing 747-8",
+    "fullName": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "model": "747-8 Intercontinental"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5545.54
+}, {
+  "key": "U1E0NDcgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SQ",
+    "name": "Singapore Airlines"
+  },
+  "flightNum": 447,
+  "start": {
+    "dateTime": "2017-02-08T19:48:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T23:49:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5557.17
+}, {
+  "key": "U1U4ODUgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SU",
+    "name": "Aeroflot"
+  },
+  "flightNum": 885,
+  "start": {
+    "dateTime": "2017-02-08T22:55:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-09T02:56:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "333",
+    "shortName": "Airbus A330-300",
+    "fullName": "Airbus Industrie A330-300",
+    "manufacturer": "Airbus",
+    "model": "A330-300"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5557.72
+}, {
+  "key": "UUYxNDkgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "QF",
+    "name": "Qantas"
+  },
+  "flightNum": 149,
+  "start": {
+    "dateTime": "2017-02-08T19:48:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T23:49:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "333",
+    "shortName": "Airbus A330-300",
+    "fullName": "Airbus Industrie A330-300",
+    "manufacturer": "Airbus",
+    "model": "A330-300"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5637.61
+}, {
+  "key": "UUY0NTkgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "QF",
+    "name": "Qantas"
+  },
+  "flightNum": 459,
+  "start": {
+    "dateTime": "2017-02-08T21:55:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-09T01:56:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "380",
+    "shortName": "Airbus A380",
+    "fullName": "Airbus Industrie A380",
+    "manufacturer": "Airbus",
+    "model": "A380"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5665.88
+}, {
+  "key": "U1E4MTkgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SQ",
+    "name": "Singapore Airlines"
+  },
+  "flightNum": 819,
+  "start": {
+    "dateTime": "2017-02-08T08:19:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T12:20:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "380",
+    "shortName": "Airbus A380",
+    "fullName": "Airbus Industrie A380",
+    "manufacturer": "Airbus",
+    "model": "A380"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5721.9
+}, {
+  "key": "S0U4MzIgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "KE",
+    "name": "Korean Air lines"
+  },
+  "flightNum": 832,
+  "start": {
+    "dateTime": "2017-02-08T09:22:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T13:23:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "74H",
+    "shortName": "Boeing 747-8",
+    "fullName": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "model": "747-8 Intercontinental"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5748.46
+}, {
+  "key": "U1E1MDcgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SQ",
+    "name": "Singapore Airlines"
+  },
+  "flightNum": 507,
+  "start": {
+    "dateTime": "2017-02-08T14:36:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T18:37:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "333",
+    "shortName": "Airbus A330-300",
+    "fullName": "Airbus Industrie A330-300",
+    "manufacturer": "Airbus",
+    "model": "A330-300"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5766.39
+}, {
+  "key": "UUYxMzUgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "QF",
+    "name": "Qantas"
+  },
+  "flightNum": 135,
+  "start": {
+    "dateTime": "2017-02-08T16:41:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T20:42:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "380",
+    "shortName": "Airbus A380",
+    "fullName": "Airbus Industrie A380",
+    "manufacturer": "Airbus",
+    "model": "A380"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5777.27
+}, {
+  "key": "RUsxNTQgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "EK",
+    "name": "Emirates"
+  },
+  "flightNum": 154,
+  "start": {
+    "dateTime": "2017-02-08T05:12:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T09:13:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5863.14
+}, {
+  "key": "U1E3NDIgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SQ",
+    "name": "Singapore Airlines"
+  },
+  "flightNum": 742,
+  "start": {
+    "dateTime": "2017-02-08T22:56:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-09T02:57:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "74H",
+    "shortName": "Boeing 747-8",
+    "fullName": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "model": "747-8 Intercontinental"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 5941.34
+}, {
+  "key": "U1U2NjAgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SU",
+    "name": "Aeroflot"
+  },
+  "flightNum": 660,
+  "start": {
+    "dateTime": "2017-02-08T15:39:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T19:40:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "380",
+    "shortName": "Airbus A380",
+    "fullName": "Airbus Industrie A380",
+    "manufacturer": "Airbus",
+    "model": "A380"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 6022.98
+}, {
+  "key": "U1U5MTMgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SU",
+    "name": "Aeroflot"
+  },
+  "flightNum": 913,
+  "start": {
+    "dateTime": "2017-02-08T19:48:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T23:49:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 6052.64
+}, {
+  "key": "RUs4MTQgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "EK",
+    "name": "Emirates"
+  },
+  "flightNum": 814,
+  "start": {
+    "dateTime": "2017-02-08T10:27:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T14:28:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "74H",
+    "shortName": "Boeing 747-8",
+    "fullName": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "model": "747-8 Intercontinental"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 6139.67
+}, {
+  "key": "S0U5NCAxNDg2NDcyNDAwMDAw",
+  "airline": {
+    "code": "KE",
+    "name": "Korean Air lines"
+  },
+  "flightNum": 94,
+  "start": {
+    "dateTime": "2017-02-08T02:06:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T06:07:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "380",
+    "shortName": "Airbus A380",
+    "fullName": "Airbus Industrie A380",
+    "manufacturer": "Airbus",
+    "model": "A380"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 6197.46
+}, {
+  "key": "S0U0MDcgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "KE",
+    "name": "Korean Air lines"
+  },
+  "flightNum": 407,
+  "start": {
+    "dateTime": "2017-02-08T22:56:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-09T02:57:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "74H",
+    "shortName": "Boeing 747-8",
+    "fullName": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "model": "747-8 Intercontinental"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 6231.55
+}, {
+  "key": "U1UzMDcgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SU",
+    "name": "Aeroflot"
+  },
+  "flightNum": 307,
+  "start": {
+    "dateTime": "2017-02-08T22:56:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-09T02:57:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "380",
+    "shortName": "Airbus A380",
+    "fullName": "Airbus Industrie A380",
+    "manufacturer": "Airbus",
+    "model": "A380"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 6238.48
+}, {
+  "key": "UUY0MTkgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "QF",
+    "name": "Qantas"
+  },
+  "flightNum": 419,
+  "start": {
+    "dateTime": "2017-02-08T21:53:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-09T01:54:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "333",
+    "shortName": "Airbus A330-300",
+    "fullName": "Airbus Industrie A330-300",
+    "manufacturer": "Airbus",
+    "model": "A330-300"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 6454.49
+}, {
+  "key": "RUsyMDAgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "EK",
+    "name": "Emirates"
+  },
+  "flightNum": 200,
+  "start": {
+    "dateTime": "2017-02-08T18:47:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T22:48:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "74H",
+    "shortName": "Boeing 747-8",
+    "fullName": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "model": "747-8 Intercontinental"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 6468.68
+}, {
+  "key": "UUYyMjcgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "QF",
+    "name": "Qantas"
+  },
+  "flightNum": 227,
+  "start": {
+    "dateTime": "2017-02-08T23:59:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-09T04:00:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "333",
+    "shortName": "Airbus A330-300",
+    "fullName": "Airbus Industrie A330-300",
+    "manufacturer": "Airbus",
+    "model": "A330-300"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 7011.38
+}, {
+  "key": "U1E1NTcgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SQ",
+    "name": "Singapore Airlines"
+  },
+  "flightNum": 557,
+  "start": {
+    "dateTime": "2017-02-08T18:47:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T22:48:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 7214.87
+}, {
+  "key": "RUsyMjUgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "EK",
+    "name": "Emirates"
+  },
+  "flightNum": 225,
+  "start": {
+    "dateTime": "2017-02-08T20:51:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-09T00:52:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "333",
+    "shortName": "Airbus A330-300",
+    "fullName": "Airbus Industrie A330-300",
+    "manufacturer": "Airbus",
+    "model": "A330-300"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 7247.18
+}, {
+  "key": "S0U2ODQgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "KE",
+    "name": "Korean Air lines"
+  },
+  "flightNum": 684,
+  "start": {
+    "dateTime": "2017-02-08T15:39:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T19:40:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "333",
+    "shortName": "Airbus A330-300",
+    "fullName": "Airbus Industrie A330-300",
+    "manufacturer": "Airbus",
+    "model": "A330-300"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 7344.5
+}, {
+  "key": "S0U5OTIgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "KE",
+    "name": "Korean Air lines"
+  },
+  "flightNum": 992,
+  "start": {
+    "dateTime": "2017-02-08T13:33:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T17:34:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 7508.95
+}, {
+  "key": "RUsyMzUgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "EK",
+    "name": "Emirates"
+  },
+  "flightNum": 235,
+  "start": {
+    "dateTime": "2017-02-08T11:27:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T15:28:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "333",
+    "shortName": "Airbus A330-300",
+    "fullName": "Airbus Industrie A330-300",
+    "manufacturer": "Airbus",
+    "model": "A330-300"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 7595.97
+}, {
+  "key": "S0UzNTggMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "KE",
+    "name": "Korean Air lines"
+  },
+  "flightNum": 358,
+  "start": {
+    "dateTime": "2017-02-08T00:00:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T04:01:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "OVR",
+    "shortName": "Overlord",
+    "fullName": "Overlord",
+    "manufacturer": "Zerg",
+    "model": "Ventral"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 7649.37
+}, {
+  "key": "U1E1ODAgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "SQ",
+    "name": "Singapore Airlines"
+  },
+  "flightNum": 580,
+  "start": {
+    "dateTime": "2017-02-08T02:06:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T06:07:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 7898.72
+}, {
+  "key": "RUsyNDkgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "EK",
+    "name": "Emirates"
+  },
+  "flightNum": 249,
+  "start": {
+    "dateTime": "2017-02-08T19:48:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T23:49:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 8082.6
+}, {
+  "key": "S0U2MjMgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "KE",
+    "name": "Korean Air lines"
+  },
+  "flightNum": 623,
+  "start": {
+    "dateTime": "2017-02-08T21:53:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-09T01:54:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "74H",
+    "shortName": "Boeing 747-8",
+    "fullName": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "model": "747-8 Intercontinental"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 8195.04
+}, {
+  "key": "UUY2NjkgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "QF",
+    "name": "Qantas"
+  },
+  "flightNum": 669,
+  "start": {
+    "dateTime": "2017-02-08T15:38:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T19:39:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "74H",
+    "shortName": "Boeing 747-8",
+    "fullName": "Boeing 747-8",
+    "manufacturer": "Boeing",
+    "model": "747-8 Intercontinental"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 8457.53
+}, {
+  "key": "UUY5MDQgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "QF",
+    "name": "Qantas"
+  },
+  "flightNum": 904,
+  "start": {
+    "dateTime": "2017-02-08T02:05:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T06:06:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "KAN",
+    "shortName": "Skippy",
+    "fullName": "Kangaroo",
+    "manufacturer": "Australia",
+    "model": "Red"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 8510.35
+}, {
+  "key": "UUY1OTkgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "QF",
+    "name": "Qantas"
+  },
+  "flightNum": 599,
+  "start": {
+    "dateTime": "2017-02-08T04:11:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T08:12:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "333",
+    "shortName": "Airbus A330-300",
+    "fullName": "Airbus Industrie A330-300",
+    "manufacturer": "Airbus",
+    "model": "A330-300"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 8703.64
+}, {
+  "key": "RUsyNzYgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "EK",
+    "name": "Emirates"
+  },
+  "flightNum": 276,
+  "start": {
+    "dateTime": "2017-02-08T07:18:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T11:19:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 8888.11
+}, {
+  "key": "UUYzMTAgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "QF",
+    "name": "Qantas"
+  },
+  "flightNum": 310,
+  "start": {
+    "dateTime": "2017-02-08T04:09:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T08:10:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "333",
+    "shortName": "Airbus A330-300",
+    "fullName": "Airbus Industrie A330-300",
+    "manufacturer": "Airbus",
+    "model": "A330-300"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 8979.24
+}, {
+  "key": "RUsyODMgMTQ4NjQ3MjQwMDAwMA==",
+  "airline": {
+    "code": "EK",
+    "name": "Emirates"
+  },
+  "flightNum": 283,
+  "start": {
+    "dateTime": "2017-02-08T09:23:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T13:24:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "789",
+    "shortName": "Boeing 787-9",
+    "fullName": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "model": "787-9"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 9045.24
+}, {
+  "key": "RUsxMiAxNDg2NDcyNDAwMDAw",
+  "airline": {
+    "code": "EK",
+    "name": "Emirates"
+  },
+  "flightNum": 12,
+  "start": {
+    "dateTime": "2017-02-08T09:24:00+11:00",
+    "airportCode": "SYD",
+    "airportName": "Kingsford Smith",
+    "cityCode": "SYD",
+    "cityName": "Sydney",
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "latitude": -33.946111,
+    "longitude": 151.177222,
+    "stateCode": "NS",
+    "timeZone": "Australia/Sydney"
+  },
+  "finish": {
+    "dateTime": "2017-02-08T13:25:00-05:00",
+    "airportCode": "JFK",
+    "airportName": "John F Kennedy Intl",
+    "cityCode": "NYC",
+    "cityName": "New York",
+    "countryCode": "US",
+    "countryName": "United States",
+    "latitude": 40.639751,
+    "longitude": -73.778925,
+    "stateCode": "NY",
+    "timeZone": "America/New_York"
+  },
+  "plane": {
+    "code": "380",
+    "shortName": "Airbus A380",
+    "fullName": "Airbus Industrie A380",
+    "manufacturer": "Airbus",
+    "model": "A380"
+  },
+  "distance": 16014,
+  "durationMin": 1201,
+  "price": 9325.31
+}]
