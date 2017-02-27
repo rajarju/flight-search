@@ -1,11 +1,12 @@
 (function() {
   'use strict';
   function Header(name) {
-    // Extend Base Component
-    App.components.Component.call(this,  {
+    this.model = {
       name : name
-    });
+    };
     this.template = '#template-header';
   }
+  App.initComponent(Header);
+
   window.App.components.Header = Header;
 })();

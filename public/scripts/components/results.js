@@ -1,7 +1,7 @@
 (function() {
   'use strict';
-  function Results(model) {
 
+  var Results = (function(){
 
     // private
     function refreshResults() {
@@ -19,18 +19,20 @@
       this.$template.find('.Results__List__container').html($('#template-app-results-no-result').html());
     }
 
+    // @class
+    function Results(model) {
+      this.model = {
+        results : model
+      };
+      this.template = '#template-app-results';
+      this.refreshResults = refreshResults;
+      this.clearResults = clearResults;
+    }
 
-    // public
-    // Extend Base Component
-    App.components.Component.call(this, {
-      results : model
-    });
-    this.template = '#template-app-results';
-    this.refreshResults = refreshResults;
-    this.clearResults = clearResults;
+    App.initComponent(Results);
 
-    this.ready = function() {
-      if(this.model.results){
+    Results.prototype.ready = function() {
+      if(this.model && this.model.results){
         if(this.model.results.length) {
           refreshResults.call(this);
         }
@@ -40,8 +42,8 @@
       }
     };
 
+    return Results;
+  })();
 
-
-  }
   window.App.components.Results = Results;
 })();

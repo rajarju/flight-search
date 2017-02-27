@@ -2,6 +2,20 @@
   'use strict';
   function App(){}
 
+  App.prototype.initComponent = function(child, parent) {
+    parent = parent || window.App.components.Component;
+    // Extend Base Component
+    child._super = parent;
+    child.prototype = Object.create(parent.prototype, {
+      constructor: {
+        value: child,
+        enumerable: false,
+        writable: true,
+        configurable: true
+      }
+    });
+  };
+
   App.prototype.config = {
     dateFormat : 'YYYY-MM-DD'
   };

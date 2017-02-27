@@ -41,11 +41,10 @@
       return model;
     }
 
-    function Component(model) {
+    function Component() {
       // public
       this.$el = null;
       this.$template = null;
-      this.model = model;
     }
 
 
@@ -73,7 +72,7 @@
       }
     };
 
-
+    return Component;
   })();
 
   App.components.Component = Component;

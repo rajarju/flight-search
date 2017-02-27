@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  function FlightApp() {
+  var FlightApp = (function(){
 
     // @private
     var searches = {};
@@ -122,29 +122,27 @@
       this.$template.find('#messages').empty().append($(template(message)));
     }
 
-    
-    // @public
-    this.template = '#template-app';
-  }
-  
-  // Extend Base Component
-  FlightApp.prototype = Object.create(App.components.Component.prototype, {
-    constructor: {
-      value: FlightApp,
-      enumerable: false,
-      writable: true,
-      configurable: true
+    // @class
+    function FlightApp() {
+      // @public
+      this.model = {
+        name : 'Flight App'
+      };
+      this.template = '#template-app';
     }
-  });
-  
-  FlightApp.prototype.ready = function() {
-    App.events.on('SEARCH_FORM.SEARCH', search.bind(this));
-    $template = this.$template;
-    $tabs = this.$template.find('.App__LeftNav__Tab');
-    $tabs.click(switchTab.bind(this));
-    clearResults.call(this);
-  };
-  
+
+    App.initComponent(FlightApp);
+
+    FlightApp.prototype.ready = function() {
+      App.events.on('SEARCH_FORM.SEARCH', search.bind(this));
+      $template = this.$template;
+      $tabs = this.$template.find('.App__LeftNav__Tab');
+      $tabs.click(switchTab.bind(this));
+      clearResults.call(this);
+    };
+
+    return FlightApp;
+  })();
 
   App.FlightApp = FlightApp;
 })();

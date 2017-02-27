@@ -1,7 +1,6 @@
 (function() {
   'use strict';
-  function Search() {
-
+  var Search = (function(){
     // private
     var query = {};
     var $template;
@@ -62,16 +61,16 @@
       return item.name;
     }
 
+    // @class
+    function Search() {
+      // Select Template
+      this.template = '#template-app-search';
+    }
 
-    // public
-    // Extend Base Component
-    App.components.Component.call(this);
-
-    // Select Template
-    this.template = '#template-app-search';
+    App.initComponent(Search);
 
     // Bind Events
-    this.ready = function() {
+    Search.prototype.ready = function() {
       $template = this.$template;
       this.$template.find('#search-form').on('submit', search);
       this.$template.find('#search-form button.clear').on('click', clear);
@@ -81,7 +80,8 @@
       showSearchForm.call(this);
     };
 
-  }
+    return Search;
+  })();
 
   window.App.components.Search = Search;
 })();
