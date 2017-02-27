@@ -3,6 +3,7 @@
 
   function FlightApp() {
 
+    // @private
     var searches = {};
     var results = {};
     var lowestFares = {};
@@ -30,7 +31,7 @@
       // Check date
       // Fire 5 queries and track their progress
       for(var i = 0; i < 5 ; i += 1) {
-        var flightDate = moment(query.date).add( i - 2, 'day');
+        var flightDate = searchDate.add( i - 2, 'day');
         if(flightDate.diff(moment().startOf('day'), 'hours') >= 0 ) {
           enableTab.call(this, i, flightDate);
           searches[i] = App.services.flight.find({
@@ -121,24 +122,29 @@
       this.$template.find('#messages').empty().append($(template(message)));
     }
 
-
-    // Extend Base Component
-    App.components.Component.call(this, {
-      name : 'Flight App',
-      results: {}
-    });
+    
+    // @public
     this.template = '#template-app';
-
-    this.ready = function() {
-      App.events.on('SEARCH_FORM.SEARCH', search.bind(this));
-      $template = this.$template;
-      $tabs = this.$template.find('.App__LeftNav__Tab');
-      $tabs.click(switchTab.bind(this));
-      clearResults.call(this);
-    };
-
-
   }
+  
+  // Extend Base Component
+  FlightApp.prototype = Object.create(App.components.Component.prototype, {
+    constructor: {
+      value: FlightApp,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+  
+  FlightApp.prototype.ready = function() {
+    App.events.on('SEARCH_FORM.SEARCH', search.bind(this));
+    $template = this.$template;
+    $tabs = this.$template.find('.App__LeftNav__Tab');
+    $tabs.click(switchTab.bind(this));
+    clearResults.call(this);
+  };
+  
 
   App.FlightApp = FlightApp;
 })();

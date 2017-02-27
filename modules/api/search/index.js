@@ -2,7 +2,7 @@
   'use strict';
   var async = require('async');
   var _ = require('lodash');
-  var flightApi = require('../../flightApi');
+  var flightApi = require('../../FlightApi');
 
   module.exports = function(req, res, next) {
 

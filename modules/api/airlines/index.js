@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  var flightApi = require('../../flightApi');
+  var flightApi = require('../../FlightApi');
 
   module.exports = function(req, res, next) {
     flightApi.airlines(function(err, airlines) {

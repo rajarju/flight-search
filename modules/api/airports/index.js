@@ -1,7 +1,7 @@
 (function() {
   'use strict';
   var _ = require('lodash');
-  var flightApi = require('../../flightApi');
+  var flightApi = require('../../FlightApi');
 
   module.exports = function(req, res, next) {
     flightApi.airports(req.query.q, function(err, airports) {
