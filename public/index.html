@@ -15,7 +15,7 @@
 <div id="root"></div>
 
 <!--Templates-->
-<script id="template-app" type="js-template">
+<script id="template-app" type="text/html">
   <div id="app" class="App container">
     <header class="App__Header">
       <component data-component="Header" data-model="name"></component>
@@ -55,7 +55,7 @@
   </div>
 </script>
 
-<script id="template-header" type="js-template">
+<script id="template-header" type="text/html">
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
@@ -76,7 +76,7 @@
   </nav>
 </script>
 
-<script id="template-app-search" type="js-template">
+<script id="template-app-search" type="text/html">
   <div class="panel panel-default">
     <div class="panel-body">
       <form id="search-form" class="form">
@@ -115,7 +115,7 @@
   </div>
 </script>
 
-<script id="template-app-results" type="js-template">
+<script id="template-app-results" type="text/html">
   <div class="Results">
     <div class="row">
       <div class="results-list Results__List">
@@ -135,7 +135,7 @@
   </div>
 </script>
 
-<script id="template-app-results-result" type="js-template">
+<script id="template-app-results-result" type="text/html">
   <div href="#" class="list-group-item App__Results__Result">
       <div class="row App__Results__Result__Summary">
         <div class="App__Results__Result__Finish col-xs-2 text-center" >
@@ -186,13 +186,13 @@
   </div>
 </script>
 
-<script id="template-app-results-no-result" type="js-template">
+<script id="template-app-results-no-result" type="text/html">
   <div href="#" class="list-group-item">
     <p class="list-group-item-text">No Flights found. Please try another date</p>
   </div>
 </script>
 
-<script id="template-app-messages" type="js-template">
+<script id="template-app-messages" type="text/html">
   <div class="alert alert-{{type}} text-center">{{message}}</div>
 </script>
 <!-- End Templates-->
